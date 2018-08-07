@@ -1,0 +1,23 @@
+{
+    "name": "lincoo/social_login",
+    "description": "第三方包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "duanjin",
+            "email": "duan.jin@mydreamplus.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "yurunsoft/yurun-http" : "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lincoo\\Social_Login\\": "src/",
+            "Lincoo\\Social_Login\\QQ\\": "src/qq/"
+        }
+    }
+}
