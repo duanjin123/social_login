@@ -9,7 +9,6 @@
             "email": "duan.jin@mydreamplus.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "yurunsoft/yurun-http" : "~3.0"
@@ -19,5 +18,6 @@
             "Lincoo\\Social_Login\\": "src/",
             "Lincoo\\Social_Login\\QQ\\": "src/qq/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
